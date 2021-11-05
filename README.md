@@ -2,6 +2,8 @@
 
 This tiny repo contains the files from the Docker tutorial at https://docs.docker.com/language/python/build-images/
 
+In a nutshell, you can build a container to run a trivial Flask web server that will respond with a "hello world" type of message.
+
 Obviously you will need docker installed to build the container.
 
 You will need Python 3 if you want to test the code, but if not, you can just build it into the container as the Dockerfile will build a Python 3.8 enabled image.
